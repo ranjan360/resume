@@ -1,0 +1,141 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    background-image: url('geometric_background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background-image: url('wallpaper-1845311.jpg');
+    padding: 16px;
+/*    opacity: O.3;*/
+    }
+.navbar a{
+    font-weight: bold;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 2s;
+}
+.n{
+    margin-top: 30px;
+}
+.navbar a:hover{
+    background-color: red;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: black;
+    }
+.navbar a:active{
+    font-size: 5px;
+}
+.wrapper{
+/*    display: flex;*/
+         width: 70%;
+/*    height: 450px;*/
+    background-image: url('wallpaper-1845311.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 9%;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 5px 2px 10px #500656;
+    opacity: 0.8;
+} 
+#change{
+    display: flex;  
+}
+.me{
+    margin-left: 100px;
+/*    align-items: flex-start;*/
+/*    display: flex;*/
+    padding-top: 50px;
+}
+.photos{
+    display: flex;
+    margin-left: 15%;
+/*    margin-top: 20%;*/
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+}
+.status{
+    margin-top: 50px;
+}
+.hr{
+    border: 1px solid #888888;
+    width: 80%;
+}
+hr{
+    margin-top: 20px;
+}
+.name{
+    align-items: center;
+    text-align: center;
+}
+p{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.namebox{
+    margin-top: 40px;
+}
+.address{
+/*    padding-top: 5%;*/
+    text-align: right;
+}
+.me{
+    margin-top: 40px;
+/*    float: right;*/
+    text-align: justify;
+
+}
+.bap{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.bap2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.photos{
+
+    border-radius: 300px;
+}
+.status{
+    margin-top: 50px;
+}
+.hr{
+    border: 1px solid #888888;
+    width: 80%;
+}
+hr{
+    margin-top: 20px;
+}
+.name{
+    align-items: center;
+    text-align: center;
+}
+p{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.bap3{
+    text-align: center;
+}
